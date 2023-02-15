@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'service.apps.ServiceConfig',
+    'ork8r.apps.OrchestratorConfig',
 ]
 
 MIDDLEWARE = [
