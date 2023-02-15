@@ -37,7 +37,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'django_celery_results',
+    'django_prometheus',
     'rest_framework',
+    'drf_yasg',
+
     'service.apps.ServiceConfig',
     'ork8r.apps.OrchestratorConfig',
 ]
