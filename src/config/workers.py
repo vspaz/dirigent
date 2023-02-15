@@ -8,3 +8,5 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings')
 celery_app = celery.Celery('ork8r')
 celery_app.config_from_object('django.conf:settings')
 celery_app.autodiscover_tasks(lambda: settings.INSTALLED_APPS)
+
+CELERY_CREATE_MISSING_QUEUES = True
