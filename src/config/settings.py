@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'drf_yasg',
 
     'service.apps.ServiceConfig',
-    'ork8r.apps.OrchestratorConfig',
+    'dirigent.apps.DirigentConfig',
 ]
 
 MIDDLEWARE = [
